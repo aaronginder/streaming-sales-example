@@ -1,0 +1,4 @@
+FROM confluentinc/cp-kafka:latest
+
+# Copy the script to /usr/bin/
+COPY scripts/create-topics.sh /tmp/create-topics.sh

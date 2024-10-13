@@ -1,0 +1,8 @@
+# Use the official MongoDB image
+FROM mongo:latest
+
+# Install MongoDB tools
+RUN apt-get update && apt-get install -y mongodb-database-tools
+
+# Make sure the PATH includes the MongoDB tools
+ENV PATH=/usr/bin:$PATH

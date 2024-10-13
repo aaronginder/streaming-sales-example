@@ -47,8 +47,8 @@ EOF
   # Output both the transaction and customer profile
   echo "Transaction:"
   echo "$transaction"
-  echo "Customer Profile:"
-  echo "$customer"
+  # echo "Customer Profile:"
+  # echo "$customer"
 }
 
 # Infinite loop to continuously generate synthetic data
